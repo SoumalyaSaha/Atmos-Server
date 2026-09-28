@@ -1,0 +1,29 @@
+{
+  "name": "atmos-ai-backend",
+  "version": "1.0.0",
+  "description": "Atmos AI Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["carbon-footprint", "sustainability", "ai", "gemini"],
+  "author": "SoumalyaSaha",
+  "license": "MIT",
+  "dependencies": {
+  "@google/generative-ai": "^0.21.0",
+  "cors": "^2.8.5",
+  "dotenv": "^16.4.7",
+  "express": "^4.21.2",
+  "google-auth-library": "^9.15.0",
+  "groq-sdk": "^0.3.3",
+  "jsonwebtoken": "^9.0.2",
+  "mongoose": "^8.x"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
